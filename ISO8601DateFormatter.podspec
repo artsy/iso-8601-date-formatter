@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.authors       = "Peter Hosey"
   s.homepage      = "http://boredzo.org/iso8601dateformatter/",
   s.license       = { :type => "BSD", :file => "LICENSE.txt" }
-  s.platforms     = { :ios => "5.0", :osx => "10.7", :watchos => "2.0", :tvos => "9.0 }
+  s.platforms     = { :ios => "5.0", :osx => "10.7", :watchos => "2.0", :tvos => "9.0" }
   s.source        = { :git => "https://github.com/boredzo/iso-8601-date-formatter.git", :tag => s.version.to_s }
   s.source_files  = "*.{m,h}"
  s.exclude_files = [
